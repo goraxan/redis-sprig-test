@@ -1,0 +1,7 @@
+{% if success is defined and success == '1' %}
+    {% do sprig.redirect('') %}
+{% endif %}
+
+<form sprig s-trigger="submit" s-action="module/boards/create">
+    <input type="submit" value="Create board">
+</form>

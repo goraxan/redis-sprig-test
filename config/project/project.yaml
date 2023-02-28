@@ -1,0 +1,27 @@
+dateModified: 1677582600
+email:
+  fromEmail: pere.toran@ohmycode.cat
+  fromName: TEST
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    56e88259-6f5f-4085-8767-5c2477c73d12: TEST # TEST
+    1361ded1-9425-49de-83ae-7ce5d72e7486: Common # Common
+    fc7c11dd-92b8-4fea-b036-83d60f3c6a01: TEST # TEST
+plugins:
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+system:
+  edition: solo
+  live: true
+  name: TEST
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

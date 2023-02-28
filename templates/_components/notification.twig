@@ -1,0 +1,8 @@
+{% if sprig.isRequest %}
+
+    {% set message = craft.site.getMessage(true) %}
+    
+    {% if message %}
+        <div>{{message}}</div>
+    {% endif %}
+{% endif %}
